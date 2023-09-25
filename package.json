@@ -5,17 +5,25 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "build": "next build",
+    "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phfedev/clone-tabnews.git"
+  },
+  "keywords": [
+    "next"
+  ],
   "author": "phfedev",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phfedev/clone-tabnews/issues"
+  },
+  "homepage": "https://github.com/phfedev/clone-tabnews#readme",
   "dependencies": {
-    "next": "^13.4.6",
+    "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.8"
   }
 }
