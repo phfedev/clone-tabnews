@@ -1,5 +1,5 @@
 services:
   database:
-    image: "postgresql:16.0-alpine3.18"
+    image: "postgres:16-alpine3.18"
     environment:
       POSTGRES_PASSWORD: '123456'
