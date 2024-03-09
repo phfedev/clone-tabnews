@@ -4,7 +4,7 @@
   "description": "Excercício de programação",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 3333",
+    "dev": "next dev -p 6566",
     "build": "next build",
     "start": "next start -p 3333",
     "test": "jest",
